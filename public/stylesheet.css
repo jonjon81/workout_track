@@ -1,0 +1,179 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* Main */
+.main {
+  text-align: center;
+  background: url("https://www.ywcampls.org/_asset/x953xn/Fitness-page-image.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+
+.main h1 {
+  color: blue;
+  text-shadow: 2px 0 0 #fff;
+  margin: 0;
+  font-size: 150px;
+
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 22px;
+  text-shadow: 2px 2px 20px blue;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Supporting */
+.supporting {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 50px 0 80px;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h2 {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  background: url("http://gumbofitness.com/wp-content/uploads/2014/11/header-photo1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.feature .container {
+  position: relative;
+  top: 200px;
+}
+
+.feature h2 {
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 20px blue;
+  margin:0;
+  padding:50px 0 0;
+
+}
+
+/* Footer */
+.footer {
+  background: url("http://www.womenshealthmag.com/sites/womenshealthmag.com/files/images/fitness-programs.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.footer .container {
+  position: relative;
+  top: 200px;
+}
+
+.footer h2 {
+  color: #fff;
+  text-shadow: 2px 2px 20px blue;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.footer .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background: blue;
+  color:#000;
+}
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
