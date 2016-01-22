@@ -20,7 +20,7 @@ p {
 /* Main */
 .main {
   text-align: center;
-  background: url("https://www.ywcampls.org/_asset/x953xn/Fitness-page-image.jpg") no-repeat center center;
+  background: url("/img/Fitness-page-image.jpg") no-repeat center center;
   background-size: cover;
   height: 600px;
 }
@@ -95,7 +95,7 @@ p {
 
 /* Feature */
 .feature {
-  background: url("http://gumbofitness.com/wp-content/uploads/2014/11/header-photo1.jpg") no-repeat center center;
+  background: url("/img/header-photo1.jpg") no-repeat center center;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -117,7 +117,7 @@ p {
 
 /* Footer */
 .footer {
-  background: url("http://www.womenshealthmag.com/sites/womenshealthmag.com/files/images/fitness-programs.jpg") no-repeat center center;
+  background: url("/img/Fitness-programs.jpg") no-repeat center center;
   background-size: cover;
   height: 600px;
   text-align: center;
